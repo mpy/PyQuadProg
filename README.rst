@@ -1,3 +1,11 @@
+PyQuadProg
+=============
+A Python interface to QuadProg++ (Luca Di Gaspero, http://www.diegm.uniud.it/digaspero/)
+which solves dense convex QPs using Goldfarb and Idnani's method (1983).
+
+Right now PyQuadProg only contains the basic functionalities.
+Any feedback is highly appriciated (mehdi.towhidi@gerad.ca). Thank you!
+
 Installation
 ============
 
@@ -21,6 +29,7 @@ STEP 3:
     Install PyQuadProg. Go to PyQuadProg's root directory and run::
 
         $ python setup.py install
+
 
 Usage
 =======
