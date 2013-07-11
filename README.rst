@@ -45,34 +45,54 @@ by means of an active-set dual method.
 The problem is in the form:
 
 
-:math:`min \frac{1}{2} xGx + g_0x`
+.. :math:`min \frac{1}{2} xGx + g_0x`
+
+min 0.5 * x G x + g0 x
 
 subject to:
 
-:math:`C_E^T x + c_e_0 = 0`
+.. :math:`C_E^T x + c_e_0 = 0`
 
-:math:`C_I^T x + c_i_0 \geq 0`
+.. :math:`C_I^T x + c_i_0 \geq 0`
 
+CE^T x + ce0 = 0
 
+CI^T x + ci0 >= 0
 
 The matrix and vectors dimensions are as follows:
 
-:math:`G : n \times n`
+.. :math:`G : n \times n`
 
-:math:`g_0 : n`
-
-
-:math:`C_E : n \times p`
-
-:math:`c_e_0 : p`
+.. :math:`g_0 : n`
 
 
-:math:`C_I : n \times m`
+.. :math:`C_E : n \times p`
 
-:math:`c_i_0 : m`
+.. :math:`c_e_0 : p`
 
 
-:math:`x : n`
+.. :math:`C_I : n \times m`
+
+.. :math:`c_i_0 : m`
+
+
+.. :math:`x : n`
+
+
+G: n * n
+
+g0: n
+
+CE: n * p
+
+ce0: p
+
+CI: n * m
+
+ci0: m
+
+x: n
+
 
 The function will return the cost of the solution written in the x vector or
 infinity if the problem is infeasible. In the latter case
