@@ -30,6 +30,10 @@ STEP 3:
 
         $ python setup.py install
 
+While your compiling, if you get complains about some members being private,
+please go to QuadProg++ source directory and open array.hh. Change the
+private members of *Vector* and *Matrix* to public attributes
+(e.g. by deleting the lines containing "private:").
 
 Usage
 =======
