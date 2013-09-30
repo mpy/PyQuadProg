@@ -108,3 +108,8 @@ Reference
 
 D. Goldfarb, A. Idnani. A numerically stable dual method for solving
 strictly convex quadratic programs. Mathematical Programming 27 (1983) pp. 1-33.
+
+
+.. image:: https://cruel-carlota.pagodabox.com/59ad87bc8d64f07ac9ad5360559715b5
+   :alt: githalytics.com
+   :target: http://githalytics.com/mpy/PyQuadProg
